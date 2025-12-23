@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E1F5FE">
+
+    <LinearLayout
+        android:id="@+id/contenedorCaja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Caja - Por Cobrar"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#01579B"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
